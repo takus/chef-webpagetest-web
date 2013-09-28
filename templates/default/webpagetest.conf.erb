@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot <%= @params[:docroot] %>
+
+  <Directory "<%= @params[:docroot] %>">
+    AllowOverride all
+    Order allow,deny
+    Allow from all
+  </Directory>
+</VirtualHost>
