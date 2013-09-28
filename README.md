@@ -1,7 +1,8 @@
-webpagetest-web cookbook
-========================
+webpagetest-web cookbook (beta ver.)
+====================================
 
 Installs [webpagetest web-server](https://sites.google.com/a/webpagetest.org/docs/private-instances#TOC-Web-Server1) (not agent).
+For now, this cookbook doesn't configure `www/settings` because this is an beta version.
 
 Requirements
 ------------
