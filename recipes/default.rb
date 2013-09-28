@@ -11,6 +11,8 @@ documentroot = "#{node['webpagetest-web']['documentroot']}/webpagetest"
 
 # yum
 include_recipe 'yum::repoforge'
+include_recipe 'build-essential'
+include_recipe 'git'
 
 # packages
 %w{ ffmpeg ffmpeg-devel ImageMagick ImageMagick-devel perl-Image-ExifTool }.each do |pkg|

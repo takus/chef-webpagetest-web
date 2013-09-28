@@ -14,6 +14,7 @@ Requirements
 #### cookbooks
 
 - [opscode-cookbooks/yum](https://github.com/opscode-cookbooks/yum/)
+- [opscode-cookbooks/git](https://github.com/opscode-cookbooks/git/)
 - [opscode-cookbooks/apache2](https://github.com/opscode-cookbooks/apache2/)
 - [opscode-cookbooks/php](https://github.com/opscode-cookbooks/php/)
 
