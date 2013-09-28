@@ -1,4 +1,4 @@
-webpagetest-web Cookbook
+webpagetest-web cookbook
 ========================
 
 Installs [webpagetest web-server](https://sites.google.com/a/webpagetest.org/docs/private-instances#TOC-Web-Server1) (not agent).
