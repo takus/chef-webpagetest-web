@@ -10,7 +10,7 @@
 documentroot = "#{node['webpagetest-web']['documentroot']}/webpagetest"
 
 # yum
-include_recipe 'yum::repoforge'
+include_recipe 'yum-repoforge'
 include_recipe 'build-essential'
 include_recipe 'git'
 
